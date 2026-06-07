@@ -1,4 +1,4 @@
-order_amount  = int(input("Enter Your Order Amont : ₹"))
+order_amount = int(input("Enter Your Order Amont : ₹"))
 # order_amount  = input("Enter Your Order Amont : ₹")
 print(f"tea order amount is ₹{type(order_amount)} ")
 

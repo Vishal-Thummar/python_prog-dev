@@ -1,4 +1,4 @@
-menu = ["Mobile","Tv","Laptop","Waching Machine","Fridge"]
+menu = ["Mobile", "Tv", "Laptop", "Waching Machine", "Fridge"]
 
 # for i in menu:
 #     print(i)
@@ -7,7 +7,7 @@ menu = ["Mobile","Tv","Laptop","Waching Machine","Fridge"]
 #     print(index,item)
 
 
-for i in enumerate(menu , start=110):
+for i in enumerate(menu, start=110):
     print(list(i))
 
     print(type(i))

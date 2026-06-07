@@ -1,6 +1,7 @@
 import sys
 from fractions import Fraction
 from decimal import Decimal
+
 ideal_temp = 95.8
 current_temp = 92.656789
 print(f"Ideal temp : {ideal_temp}")

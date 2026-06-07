@@ -1,4 +1,4 @@
-flavours = ["Ginger","Out of Stock","Lemon","Discontinued","Tulsi","Cardamom"]
+flavours = ["Ginger", "Out of Stock", "Lemon", "Discontinued", "Tulsi", "Cardamom"]
 for flavour in flavours:
     if flavour == "Out of Stock":
         continue

@@ -10,10 +10,10 @@
 # Initialize account balance and withdrawal tracking
 balance = 10000
 withdrawals = []  # List to store withdrawal amounts
-result = []       # List to store transaction results
+result = []  # List to store transaction results
 
 # Define withdrawal amounts to process
-withdrawals = [1000, 1500, 2000, 3000, 1500,10]
+withdrawals = [1000, 1500, 2000, 3000, 1500, 10]
 # Process each withdrawal request
 index = 0
 while index < len(withdrawals):
@@ -39,7 +39,6 @@ for transaction in result:
     print(transaction)
 
 
-
 # atm cash withdrawal
 # amount
 # session
@@ -52,5 +51,3 @@ for transaction in result:
 # if balance greater then requested as per request amount
 # then proceed
 # else show insufficient funds
-
-

@@ -1,7 +1,7 @@
 # Integer
 black_tea_grams = 15
 ginger_grams = 3
-total_grams = black_tea_grams+ginger_grams
+total_grams = black_tea_grams + ginger_grams
 print(f"Total Grams Base Tea is : {total_grams}")
 
 remainig_tea = black_tea_grams - ginger_grams
@@ -23,26 +23,26 @@ leftover_pods = total_Cadamom_pods % pods_per_cup
 print(f"leftOver Pods : {leftover_pods}")
 
 
-base_flavor_strength =2
+base_flavor_strength = 2
 scale_factor = 3
-powerful_flavor = base_flavor_strength ** scale_factor
+powerful_flavor = base_flavor_strength**scale_factor
 print(f"PowerFul Flavor : {powerful_flavor}")
 
 total_tea_leaves_harvested = 1_000_000_000
 print(f"tea leaves : {total_tea_leaves_harvested}")
 
 
-#Boolean Logical Operations
+# Boolean Logical Operations
 
 is_boiling = True
 print(f"Is Water Boiling : {is_boiling}")
 
 stri_count = 5
-total_actions = stri_count + is_boiling # Upcastings
+total_actions = stri_count + is_boiling  # Upcastings
 print(f"Total Actions : {total_actions}")
 
 
-milk_present = 0 # No Milk
+milk_present = 0  # No Milk
 print(f"Is there Milk? : {bool(milk_present)}")
 
 # And , Or , Not
